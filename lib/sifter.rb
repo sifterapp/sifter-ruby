@@ -1,4 +1,5 @@
 require "httparty"
+require "hashie"
 
 class Sifter
 
