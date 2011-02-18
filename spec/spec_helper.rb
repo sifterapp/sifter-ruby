@@ -3,7 +3,7 @@ require "sifter"
 
 FakeWeb.allow_net_connect = false
 
-RSpec.configure do |config|
+RSpec.configure do
 
   # Gratuitously borrowed from Wynn Netherland's gowalla gem
   def stub_get(url, filename, options={})

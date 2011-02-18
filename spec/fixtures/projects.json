@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "name": "Elephant",
+      "primary_company_name": "Apple",
+      "archived": false,
+      "url": "https://example.sifterapp.com/projects/189113590",
+      "issues_url": "https://example.sifterapp.com/projects/189113590/issues",
+      "milestones_url": "https://example.sifterapp.com/projects/189113590/milestones",
+      "api_url": "https://example.sifterapp.com/api/projects/189113590",
+      "api_issues_url": "https://example.sifterapp.com/api/projects/189113590/issues",
+      "api_milestones_url": "https://example.sifterapp.com/api/projects/189113590/milestones",
+      "api_categories_url": "https://example.sifterapp.com/api/projects/189113590/categories",
+      "api_people_url": "https://example.sifterapp.com/api/projects/189113590/people"
+    },
+    {
+      "name": "Zebra",
+      "primary_company_name": "Google",
+      "archived": true,
+      "url": "https://example.sifterapp.com/projects/358047158",
+      "issues_url": "https://example.sifterapp.com/projects/358047158/issues",
+      "milestones_url": "https://example.sifterapp.com/projects/358047158/milestones",
+      "api_url": "https://example.sifterapp.com/api/projects/358047158",
+      "api_issues_url": "https://example.sifterapp.com/api/projects/358047158/issues",
+      "api_milestones_url": "https://example.sifterapp.com/api/projects/358047158/milestones",
+      "api_categories_url": "https://example.sifterapp.com/api/projects/358047158/categories",
+      "api_people_url": "https://example.sifterapp.com/api/projects/358047158/people"
+    }
+  ]
+}
+
