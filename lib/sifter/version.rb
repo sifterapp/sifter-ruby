@@ -1,3 +1,3 @@
-module Sifter
+class Sifter
   VERSION = "0.0.1"
 end

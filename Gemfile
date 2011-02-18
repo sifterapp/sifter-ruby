@@ -1,4 +1,7 @@
 source "http://rubygems.org"
-
-# Specify your gem's dependencies in sifter.gemspec
 gemspec
+
+group :development, :test do
+  gem 'rspec', '~> 2.5.0'
+  gem 'fakeweb', '~> 1.3.0'
+end
