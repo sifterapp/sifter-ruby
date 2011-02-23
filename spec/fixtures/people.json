@@ -1,0 +1,22 @@
+{
+  "people": [
+   {
+      "username": "gdimon",
+      "first_name": "Garrett",
+      "last_name": "Dimon",
+      "email": "garrett@nextupdate.com"
+    },
+    {
+      "username": "lpage",
+      "first_name": "Larry",
+      "last_name": "Page",
+      "email": "larry@garrettdimon.com"
+    },
+    {
+      "username": "sbrin",
+      "first_name": "Sergey",
+      "last_name": "Brin",
+      "email": "sergey@garrettdimon.com"
+    }
+  ]
+}

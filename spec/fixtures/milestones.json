@@ -1,0 +1,18 @@
+{
+  "milestones": [
+    {
+      "name": "Private Release",
+      "due_date": "2010/04/15",
+      "issues_url": "https://example.sifterapp.com/projects/189113590/issues?m=1",
+      "api_issues_url": "https://example.sifterapp.com/api/projects/189113590/issues?m=1"
+    },
+    {
+      "name": "Public Release",
+      "due_date": "2010/05/15",
+      "issues_url": "https://example.sifterapp.com/projects/189113590/issues?m=2",
+      "api_issues_url": "https://example.sifterapp.com/api/projects/189113590/issues?m=2"
+    }
+
+  ]
+}
+
