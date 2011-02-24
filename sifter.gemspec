@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Adam Keys"]
   s.email       = ["adam@nextupdate.com"]
-  s.homepage    = ""
+  s.homepage    = "http://github.com/nextupdate/sifter-ruby"
   s.summary     = %q{Wrapper for the Sifter API}
   s.description = %q{Query, fetch, create and modify issues stored in Sifter.}
 
