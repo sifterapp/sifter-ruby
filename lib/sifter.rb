@@ -8,6 +8,7 @@ class Sifter
   autoload :Account, "sifter/account"
   autoload :Project, "sifter/project"
 
+  # Wrapper around an issue.
   class Issue < Hashie::Dash
 
     property :number
@@ -24,6 +25,7 @@ class Sifter
     
   end
 
+  # Wrapper around a milestone.
   class Milestone < Hashie::Dash
     
     property :name
@@ -35,6 +37,7 @@ class Sifter
     
   end
 
+  # Wrapper around a person.
   class Person < Hashie::Dash
     
     property :username

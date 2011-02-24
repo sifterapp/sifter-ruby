@@ -1,3 +1,4 @@
+# Wrapper for a Sifter project. Fetch projects using Sifter::Account.
 class Sifter::Project < Hashie::Dash
 
   property :name
@@ -13,6 +14,8 @@ class Sifter::Project < Hashie::Dash
   property :api_issues_url
   property :api_categories_url
 
+  # Fetch all the issues on this project. Returns an array of Sifter::Issue
+  # objects.
   def issues
     Sifter.
       get(api_issues_url).
@@ -20,6 +23,8 @@ class Sifter::Project < Hashie::Dash
       map { |i| Sifter::Issue.new(i) }
   end
 
+  # Fetch all the milestones for this project. Returns an array of
+  # Sifter::Milestone objects.
   def milestones
     Sifter.
       get(api_milestones_url).
@@ -27,6 +32,8 @@ class Sifter::Project < Hashie::Dash
       map { |m| Sifter::Milestone.new(m) }
   end
 
+  # Fetch all the people linked to this project. Returns an array of
+  # Sifter::Person objects.
   def people
     Sifter.
       get(api_people_url).
