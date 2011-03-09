@@ -37,12 +37,12 @@ if __FILE__ == $PROGRAM_NAME
 
   hostname = "#{options[:account]}.sifterapp.com"
   token = options[:token]
-  account = Sifter::Account.new(hostname, token)  
+  account = Sifter::Account.new(hostname, token)
   if options.has_key?(:project)
-    project = account.projects.select { |p| 
-      p.name.downcase == options[:project].downcase 
+    project = account.projects.select { |p|
+      p.name.downcase == options[:project].downcase
     }.first
-    
+
     puts "Milestones:"
     project.milestones.each { |m| puts "  #{m.name}" }
   else
