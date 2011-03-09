@@ -48,13 +48,27 @@
     <div class="description">
       A Ruby wrapper for the Sifter API.
     </div>
+<h1 id='sifterruby'>sifter-ruby</h1>
 
-    <p>It's an API wrapper for the Sifter API. You can use it to fetch projects, issues, milestones, and people from your Sifter accounts.
-</p><h2>Dependencies</h2>
-<p>httparty
-hashie</p>
+<p>It&#8217;s an API wrapper for the <a href='http://sifterapp.com/developer'>Sifter API</a>. You can use it to fetch projects, issues, milestones, and people from your Sifter accounts.</p>
+
+<h2 id='getting_started'>Getting started</h2>
+
+<p>First you&#8217;ll need to generate a Sifter API token. You can do this in your Sifter account by going to &#8220;My Profile&#8221;, clicking &#8220;Access Keys&#8221; and filling out form. Once you&#8217;ve got that, you create an account object like so:</p>
+
+<pre><code>hostname = &quot;example.sifterapp.com&quot;
+token = &quot;abc123&quot;
+account = Sifter::Account.new(hostname, token)</code></pre>
+
+<p>All of the functionality in the Sifter API hangs off <code>Sifter::Account</code>. You can fetch projects, issues, and milestones like so:</p>
+
+<pre><code>projects = account.projects 
+issues = projects.first.issues
+milestones = projects.first.milestones</code></pre>
+
 <h2>Install</h2>
 <p>gem install sifter-ruby</p>
+
 <h2>License</h2>
 <p>The MIT License
 
