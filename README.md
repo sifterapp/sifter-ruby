@@ -4,6 +4,10 @@ It's an API wrapper for the [Sifter API](http://sifterapp.com/developer). You
 can use it to fetch projects, issues, milestones, and people from your Sifter
 accounts.
 
+## Installation
+
+    gem install sifter
+    
 ## Getting started
 
 First you'll need to generate a Sifter API token. You can do this in your
