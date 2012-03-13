@@ -7,7 +7,7 @@ class Sifter::Account
   # Profile->Access Keys.
   def initialize(host, token)
     Sifter.default_options[:base_uri] = "https://" << host
-    Sifter.default_options[:headers] = {"X-Sifter-Token" => token}
+    Sifter.default_options[:headers] = {"X-Sifter-Token" => token, "Accept" => "application/json"}
   end
 
   # Fetch the possible issue statuses for this project. This is currently hardcoded
