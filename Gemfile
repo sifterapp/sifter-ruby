@@ -2,6 +2,7 @@ source "http://rubygems.org"
 gemspec
 
 gem 'coveralls', require: false
+gem 'json', '~> 1.7.7'
 
 group :development, :test do
   gem 'rspec', '~> 2.5.0'
