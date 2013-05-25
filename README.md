@@ -1,3 +1,6 @@
+[![Coverage Status](https://coveralls.io/repos/nextupdate/sifter-ruby/badge.png)](https://coveralls.io/r/nextupdate/sifter-ruby)
+
+
 # sifter-ruby
 
 It's an API wrapper for the [Sifter API](http://sifterapp.com/developer). You
