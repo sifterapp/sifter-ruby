@@ -1,36 +1,47 @@
 {
-  "issues": [
-    {
-      "number": 57,
-      "category_name": "Enhancement",
-      "priority": "Trivial",
-      "subject": "Donec vel neque",
-      "description": "Nam id libero quis ipsum feugiat elementum. Vivamus vitae mauris ut ipsum mattis malesuada. Sed vel massa. Mauris lobortis. Nunc egestas, massa id scelerisque dapibus, urna mi accumsan purus, vel aliquam nunc sapien eget nisi. Quisque vitae nibh. Proin interdum mollis leo. Fusce sed nisi. Integer ut tortor.",
-      "milestone_name": null,
-      "opener_name": "Adam Keys",
-      "assignee_name": "Garrett Dimon",
-      "status": "Open",
-      "url": "https://example.sifterapp.com/projects/189113590/issues/46809840",
-      "api_url": "https://example.sifterapp.com/api/projects/189113590/issues/46809840"
-    },
-    {
-      "number": 63,
-      "category_name": "Bug",
-      "priority": "Trivial",
-      "subject": "Sed lectus nunc, egestas tincidunt",
-      "description": "Proin dictum dignissim metus. Vivamus vel risus sed augue venenatis sodales. Quisque tempus dictum lorem. Sed a turpis eu turpis lobortis pellentesque. Nunc sem mi, ullamcorper non, dignissim eu, pellentesque eget, justo. Donec mollis neque quis tortor. In hac habitasse platea dictumst. Mauris at velit non erat scelerisque iaculis.",
-      "milestone_name": null,
-      "opener_name": "Adam Keys",
-      "assignee_name": null,
-      "status": "Open",
-      "url": "https://example.sifterapp.com/projects/189113590/issues/465769292",
-      "api_url": "https://example.sifterapp.com/api/projects/189113590/issues/465769292"
-    }
-  ],
-  "per_page": 10,
-  "page": 1,
-  "total_pages": 2,
-  "next_page_url": "https://example.sifterapp.com/api/projects/189113590/issues?per_page=10&page=1",
-  "previous_page_url": null
+"issues": [
+  {
+    "number": 57,
+    "category_name": "Enhancement",
+    "priority": "Trivial",
+    "subject": "Donec vel neque",
+    "description": "Nam id libero quis ipsum feugiat elementum. Vivamus vitae mauris ut ipsum mattis malesuada. Sed vel massa. Mauris lobortis. Nunc egestas, massa id scelerisque dapibus, urna mi accumsan purus, vel aliquam nunc sapien eget nisi. Quisque vitae nibh. Proin interdum mollis leo. Fusce sed nisi. Integer ut tortor.",
+    "milestone_name": null,
+    "opener_name": "Adam Keys",
+    "opener_email": "adam@example.com",
+    "assignee_name": "Garrett Dimon",
+    "assignee_email": "garrett@example.com",
+    "status": "Open",
+    "comment_count": 2,
+    "attachment_count": 1,
+    "created_at": "2010/05/16 19:13:16 +0000",
+    "updated_at": "2010/05/16 19:13:16 +0000",
+    "url": "https://example.sifterapp.com/projects/1/issues/5",
+    "api_url": "https://example.sifterapp.com/api/projects/1/issues/5"
+  },
+  {
+    "number": 63,
+    "category_name": "Bug",
+    "priority": "Trivial",
+    "subject": "Sed lectus nunc, egestas tincidunt",
+    "description": "Proin dictum dignissim metus. Vivamus vel risus sed augue venenatis sodales. Quisque tempus dictum lorem. Sed a turpis eu turpis lobortis pellentesque. Nunc sem mi, ullamcorper non, dignissim eu, pellentesque eget, justo. Donec mollis neque quis tortor. In hac habitasse platea dictumst. Mauris at velit non erat scelerisque iaculis.",
+    "milestone_name": null,
+    "opener_name": "Adam Keys",
+    "opener_email": "adam@example.com",
+    "assignee_name": null,
+    "assignee_email": null,
+    "status": "Open",
+    "comment_count": 0,    
+    "attachment_count": 0,
+    "created_at": "2010/05/16 19:13:16 +0000",
+    "updated_at": "2010/05/16 19:13:16 +0000",
+    "url": "https://example.sifterapp.com/projects/1/issues/6",
+    "api_url": "https://example.sifterapp.com/api/projects/1/issues/6"
+  }
+],
+"page": 1,
+"per_page": 100,
+"total_pages": 2,
+"next_page_url": "https://example.sifterapp.com/api/projects/1/issues?per_page=10&page=1",
+"previous_page_url": null
 }
-

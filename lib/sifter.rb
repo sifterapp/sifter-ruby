@@ -17,9 +17,15 @@ class Sifter
     property :priority
     property :status
     property :assignee_name
+    property :assignee_email
     property :category_name
     property :milestone_name
     property :opener_name
+    property :opener_email
+    property :comment_count
+    property :attachment_count
+    property :created_at
+    property :updated_at
     property :url
     property :api_url
     
