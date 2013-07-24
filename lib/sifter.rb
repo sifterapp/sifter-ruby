@@ -28,7 +28,8 @@ class Sifter
     property :updated_at
     property :url
     property :api_url
-    
+    property :comments_url
+
   end
 
   # Wrapper around a milestone.
