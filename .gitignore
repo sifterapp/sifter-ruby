@@ -3,3 +3,7 @@ pkg/*
 .bundle
 Gemfile.lock
 html
+
+coverage/.last_run.json
+
+coverage/.resultset.json
