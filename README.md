@@ -1,10 +1,4 @@
-[![GitHub version](https://badge.fury.io/gh/nextupdate%2Fsifter-ruby.png)](http://badge.fury.io/gh/nextupdate%2Fsifter-ruby)
-
-[![Code Climate](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/badges/e207f5b55211a58557cc/coverage.png)](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/feed)
-
-[![Code Climate](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/badges/e207f5b55211a58557cc/gpa.png)](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/feed)
-
----
+[![GitHub version](https://badge.fury.io/gh/nextupdate%2Fsifter-ruby.png)](http://badge.fury.io/gh/nextupdate%2Fsifter-ruby) [![Code Climate](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/badges/e207f5b55211a58557cc/coverage.png)](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/feed) [![Code Climate](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/badges/e207f5b55211a58557cc/gpa.png)](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/feed)
 
 ![Sifter](https://sifterapp.com/Primary-200.png)
 
