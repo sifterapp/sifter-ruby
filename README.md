@@ -1,5 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/nextupdate/sifter-ruby/badge.png)](https://coveralls.io/r/nextupdate/sifter-ruby)
-
+[![Code Climate](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/badges/e207f5b55211a58557cc/gpa.png)](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/feed)
 
 # sifter-ruby
 
