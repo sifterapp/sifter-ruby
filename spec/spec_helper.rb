@@ -5,9 +5,6 @@ end
 
 require 'bundler/setup'
 
-require 'coveralls'
-Coveralls.wear!
-
 require "fakeweb"
 require "sifter"
 
