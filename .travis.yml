@@ -1,7 +1,8 @@
 language: ruby
-script: "RAILS_ENV=test bundle exec rake --trace"
+script: RAILS_ENV=test bundle exec rake --trace
 rvm:
-  - "1.9.3"
-
+- 1.9.3
 notifications:
-  campfire: nextupdate:9a84aea9a1016d41a2a6dcc943be1b1f8f3104c1@510399
+  campfire:
+    rooms:
+      secure: "HKR8CkbbXGxIFEGJ72UNjD1qMl7PHF/LVyI0QmOSJmH80BfYZgskpExUW2M7Sru40iAhQLiGaLuuiQPOVYb16VAywr1j27lIUJy3kWXrVEgJiptMIizz47g08WT9iEqmfq+nEgXjpb7K/j4hRsU+6VV2f7+MshPKnxN4cinZoWE="
