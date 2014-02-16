@@ -7,7 +7,6 @@ notifications:
     rooms:
       secure: "HKR8CkbbXGxIFEGJ72UNjD1qMl7PHF/LVyI0QmOSJmH80BfYZgskpExUW2M7Sru40iAhQLiGaLuuiQPOVYb16VAywr1j27lIUJy3kWXrVEgJiptMIizz47g08WT9iEqmfq+nEgXjpb7K/j4hRsU+6VV2f7+MshPKnxN4cinZoWE="
     template:
-      - "%{branch} in %{repository} by %{author} (%{duration})"
-      - "| STATUS: %{message}"
-      - "| BUILD: %{build_url}"
-      - "| CHANGES: %{compare_url}"
+      - "%{message} - %{repository} / %{branch} by %{author} (%{duration})"
+      - "Build: %{build_url}"
+      - "Changes: %{compare_url}"
