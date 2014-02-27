@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 gemspec
 
-gem 'json', '~> 1.7.7'
+gem 'json', '~> 1.8.1'
 
 group :development, :test do
   gem "codeclimate-test-reporter", "~> 0.3.0"
