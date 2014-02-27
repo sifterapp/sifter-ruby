@@ -2,8 +2,9 @@
 [![Code Climate](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/badges/e207f5b55211a58557cc/coverage.png)](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/feed) 
 [![Code Climate](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/badges/e207f5b55211a58557cc/gpa.png)](https://codeclimate.com/repos/509c1edcf3ea001cd7003dc2/feed)
 [![Build Status](https://travis-ci.org/nextupdate/sifter-ruby.png?branch=master)](https://travis-ci.org/nextupdate/sifter-ruby)
+[![Dependency Status](https://gemnasium.com/nextupdate/sifter-ruby.png)](https://gemnasium.com/nextupdate/sifter-ruby)
 
-![Sifter](https://sifterapp.com/Primary-200.png)
+[![Sifter](https://sifterapp.com/Primary-200.png)](https://sifterapp.com)
 
 # sifter-ruby
 
