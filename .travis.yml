@@ -3,10 +3,5 @@ script: RAILS_ENV=test bundle exec rake --trace
 rvm:
 - 1.9.3
 notifications:
-  campfire:
-    rooms:
-      secure: "HKR8CkbbXGxIFEGJ72UNjD1qMl7PHF/LVyI0QmOSJmH80BfYZgskpExUW2M7Sru40iAhQLiGaLuuiQPOVYb16VAywr1j27lIUJy3kWXrVEgJiptMIizz47g08WT9iEqmfq+nEgXjpb7K/j4hRsU+6VV2f7+MshPKnxN4cinZoWE="
-    template:
-      - "%{message} (%{repository}/%{branch} by %{author} in %{duration})"
-      - "Build: %{build_url}"
-      - "Changes: %{compare_url}"
+  slack:
+    secure: F/9tS/3OYAx7Gv8fiVEdb8l0xuUjkp39bRhbl5qKwRIMnp9TA6M1fzRcxw6vppeXF3Li9PdYtPoAcM9YSA3Hvng46WRxx7V8mS+zPadqcDcjkJJFFZdVsYZaQTBue+XzOf7797jQTKp/ulpujK5QEpeQ+zbdV/f6OGMXYjVyzhY=
